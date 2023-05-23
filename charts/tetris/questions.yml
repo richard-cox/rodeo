@@ -20,7 +20,7 @@ questions:
     label: Theme of the blocks
     group: "Application Settings"
   - variable: themes
-    type: select
+    type: enum
     options:
       - custom
       - vim 
