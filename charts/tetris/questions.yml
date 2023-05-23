@@ -19,6 +19,19 @@ questions:
       - gameboy
     label: Theme of the blocks
     group: "Application Settings"
+  - variable: themes
+    type: select
+    options:
+      - custom
+      - vim 
+      - candy
+      - modern
+      - retro
+      - monochrome
+      - gameboy
+    label: Themes of the blocks
+    multiple: true
+    group: "Application Settings"    
   - variable: ingress.enabled
     type: boolean
     label: Expose app using Layer 7 Load Balancer

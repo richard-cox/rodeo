@@ -5,6 +5,7 @@
 autoplay: false
 title: "SUSE presents"
 theme: "custom"
+themes: []
 
 replicaCount: 1
 
