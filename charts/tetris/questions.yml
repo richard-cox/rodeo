@@ -4,6 +4,16 @@ questions:
     label: Site title
     tooltip: "This is an info tooltip"
     group: "Application Settings"
+  - variable: maptest
+    type: map[string]
+    label: Map test
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"    
+  - variable: arraytest
+    type: array[string]
+    label: array test
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"        
   - variable: multilinetitle
     type: multiline
     label: Multitline title
