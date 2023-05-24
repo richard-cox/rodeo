@@ -13,6 +13,11 @@ questions:
     tooltip: "This is an info tooltip"
     group: "Application Settings"
     valid_chars: "^[a-z]+$"    
+  - variable: servicename
+    type: reference[service]
+    label: Service
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"    
   - variable: maptest
     type: map[string]
     label: Map test
