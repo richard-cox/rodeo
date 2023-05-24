@@ -7,6 +7,13 @@ questions:
     type: boolean
     label: Start Tetris in autoplay mode
     group: "Application Settings"
+  - variable: radiotheme
+    type: radio
+    options:
+      custom: Custom theme
+      vim: VIM Theme
+    label: Choice of Radio Options
+    group: "Application Settings"
   - variable: theme
     type: enum
     options:
