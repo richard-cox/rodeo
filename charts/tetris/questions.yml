@@ -4,6 +4,13 @@ questions:
     label: Site title
     tooltip: "This is an info tooltip"
     group: "Application Settings"
+    invalid_chars: "[0-9]"
+  - variable: titlevalid
+    type: string
+    label: Site title valid
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"
+    valid_chars: "^[a-z]+$"    
   - variable: maptest
     type: map[string]
     label: Map test
