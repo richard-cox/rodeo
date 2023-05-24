@@ -2,13 +2,26 @@ questions:
   - variable: title
     type: string
     label: Site title
+    tooltip: "This is an info tooltip"
     group: "Application Settings"
+  - variable: multilinetitle
+    type: multiline
+    label: Multitline title
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"    
+  - variable: yamlstring
+    type: yaml
+    label: Yaml string
+    tooltip: "This is an info tooltip"
+    group: "Application Settings"      
   - variable: autoplay
     type: boolean
     label: Start Tetris in autoplay mode
+    tooltip: "This is an info tooltip"
     group: "Application Settings"
   - variable: radiotheme
     type: radio
+    tooltip: "This is an info tooltip"
     options:
       custom: Custom theme
       vim: VIM Theme
@@ -16,6 +29,7 @@ questions:
     group: "Application Settings"
   - variable: theme
     type: enum
+    tooltip: "This is an info tooltip"
     options:
       - custom
       - vim 
@@ -26,8 +40,18 @@ questions:
       - gameboy
     label: Theme of the blocks
     group: "Application Settings"
+  - variable: themeenumlabels
+    type: enum
+    tooltip: "This is an info tooltip"
+    options:
+      custom: Custom option
+      vim: VIM option
+      candy: Candy option
+    label: Theme of the blocks with labels
+    group: "Application Settings"    
   - variable: themes
     type: enum
+    tooltip: "This is an info tooltip"
     options:
       - custom
       - vim 
@@ -58,6 +82,7 @@ questions:
       - variable: autoscaling.minReplicas
         type: int
         required: true
+        tooltip: "This is an info tooltip"
         label: Min replicas
       - variable: autoscaling.maxReplicas
         type: int
