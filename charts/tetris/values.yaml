@@ -6,6 +6,8 @@ autoplay: false
 title: "SUSE presents"
 theme: "custom"
 themes: []
+arraytest: []
+maptest: {}
 
 replicaCount: 1
 
