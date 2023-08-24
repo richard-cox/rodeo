@@ -4,7 +4,7 @@ questions:
     label: Site title
     tooltip: "This is an info tooltip"
     group: "Application Settings"
-    invalid_chars: "[0-9]"
+    invalid_chars: "0-9"
     min_length: 1
     max_length: 20
   - variable: titlevalid
@@ -12,7 +12,7 @@ questions:
     label: Site title valid
     tooltip: "This is an info tooltip"
     group: "Application Settings"
-    valid_chars: "^[a-z]+$"    
+    valid_chars: "a-z"
   - variable: servicename
     type: reference[service]
     label: Service
@@ -54,6 +54,7 @@ questions:
   - variable: theme
     type: enum
     tooltip: "This is an info tooltip"
+    searchable: true
     options:
       - custom
       - vim 
@@ -97,6 +98,18 @@ questions:
         type: hostname
         required: true
         label: Hostname
+      - variable: junkcidr
+        type: cidr
+        required: false
+        label: Test cidr
+      - variable: junkipaddr
+        type: ipaddr
+        required: false
+        label: Test ipaddr
+      - variable: junkcron
+        type: cron
+        required: false
+        label: Test cron
   - variable: autoscaling.enabled
     type: boolean
     label: Enable autoscaling
