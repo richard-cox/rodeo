@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: 1.0.0
+description: Chart to test Rancher questions
+name: rancher-questions
+icon: https://rancher.com/img/brand-guidelines/assets/logos/png/color/rancher-logo-stacked-color.png
+maintainers:
+  - name: Rancher
+    url: https://github.com/rancher
+version: 1.0.0
