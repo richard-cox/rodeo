@@ -1,9 +1,9 @@
 questions:
 - variable: resource
-  description: "User of the application"
+  description: "Demonstrate selecting a pod"
   type: reference[pod]
   required: true
-  label: Pick a pod
+  label: Linked Pod
   group: "New"
 - variable: wordpress.wordpressUsername
   description: "User of the application"
