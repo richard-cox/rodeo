@@ -44,7 +44,7 @@ questions:
     type: string
     label: Image Tag
 - variable: throwaway.resource
-  description: "Select a Pod"
-  type: pod
-  label: Pod
+  description: "Select a Config Map"
+  type: configmap
+  label: Config Map
   group: "Other Demo Fields"
