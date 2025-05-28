@@ -43,3 +43,8 @@ questions:
     description: "Specify the container image tag"
     type: string
     label: Image Tag
+- variable: throwaway.resource
+  description: "Select a Pod"
+  type: pod
+  label: Pod
+  group: "Other Demo Fields"
